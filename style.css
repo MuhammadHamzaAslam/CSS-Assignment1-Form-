@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Download;
+    src: url(Fonts/Kalam/Kalam-Bold.ttf);
+}
+@font-face {
+    font-family: Download2;
+    src: url(Fonts/Lemon/Lemon-Regular.ttf);
+}
+*{
+    background-color: black;
+}
+.A{
+    color: yellow;
+    font-family: "Download";
+    border: none;
+    border-bottom: 5px solid gray;
+    width: 30vw;
+}
+.abc{
+    color: white;
+    font-family: "Download2";
+}
+textarea{
+    resize: none;
+}
+.A:focus{
+    border-color: blue;
+    outline: none;
+}
